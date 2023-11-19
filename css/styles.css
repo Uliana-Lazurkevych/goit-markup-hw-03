@@ -379,10 +379,6 @@ header {
     flex-direction: column;
 }
 
-.logo-footer {
-  margin-bottom: 16px;
-  display: inline-block;
-}
 
 .logo-footer {
   color: var(--iris);
