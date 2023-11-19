@@ -60,7 +60,7 @@ button {
 
 /* header*/
 
-.header {}
+.header {border-bottom: 1px solid #e7e9fc}
 
 .header-container {
   display: flex;
@@ -74,10 +74,6 @@ button {
   align-items: center; 
 }
 
-.menu {
-  display: flex;
-  gap: 40px;
-}
 
 .logo {
   color: var(--iris);
@@ -87,6 +83,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px
 }
 
 .logo-studio {
@@ -97,6 +94,16 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-item {
+  padding-top: 24px; 
+  padding-bottom: 24px;
 }
 
 .menu-link {
@@ -111,6 +118,11 @@ button {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--ocean);
+}
+
+.adress {
+  display: flex;
+  gap: 40px
 }
 
 .page-navigation {
