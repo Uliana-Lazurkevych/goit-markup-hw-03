@@ -59,6 +59,26 @@ button {
   }
 
 /* header*/
+
+.header {}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.navigation {
+  display: flex; 
+  align-items: center; 
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
 .logo {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
