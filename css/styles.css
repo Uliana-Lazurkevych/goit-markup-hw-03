@@ -389,6 +389,10 @@ header {
 }
 
 .logo-studio-footer {
+  display: inline-block;
+}
+
+.logo-studio-footer {
   color: var(--cloud);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
