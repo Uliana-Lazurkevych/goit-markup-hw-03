@@ -260,8 +260,25 @@ header {
   background-color: var(--cloud);
 }
 
+.our-team-list {
+  display: flex;
+  gap: 24px;
+}
+
 .our-team-list-item {
   background-color: var(--white);
+  gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  border: none;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  border: none;
+}
+
+.cards-description {
+  padding: 32px 0;
+  text-align: center;
 }
 
 .our-team-title {
@@ -269,10 +286,9 @@ header {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 
 .ingridients-list-name {
@@ -282,6 +298,7 @@ header {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .ingridients-list-desc {
@@ -294,6 +311,7 @@ header {
 }
 
 /* Portfolio */
+
 .portfolio-title {
   color: var(--navy-blue);
   text-align: center;
@@ -303,6 +321,26 @@ header {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-list-item {
+  width: calc((100% - 48px) / 3);
+  padding-left: 0;
+}
+
+.portfolio-cards {
+  padding: 32px 16px;
+  text-align: left;
+  border: 1px solid var(--cornflower);
+  border-top: none;
 }
 
 .portfolio-list-name {
@@ -327,6 +365,13 @@ header {
 
 .footer-section {
   background: var(--navy-blue);
+  background-color: #2E2F42;
+  padding: 100px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .logo-footer {
@@ -337,6 +382,8 @@ header {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .logo-studio-footer {
@@ -356,4 +403,5 @@ header {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
 }
