@@ -232,7 +232,7 @@ header {
 }
 
 .advantages-list-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages-list-subtitle {
@@ -266,7 +266,6 @@ header {
 }
 
 .our-team-list-item {
-  width: calc((100% - 72px) / 4);
   background-color: var(--white);
   gap: 32px;
   border-radius: 0px 0px 4px 4px;
@@ -275,6 +274,7 @@ header {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   border: none;
+  width: calc((100% - 72px) / 4);
 }
 
 .cards-description {
@@ -389,7 +389,7 @@ header {
 }
 
 .logo-studio-footer {
-  display: inline-block;
+  display: inline-block; 
 }
 
 .logo-studio-footer {
